@@ -1,5 +1,5 @@
 
-Author: Pedro Yáñez Meléndez
+**Author: Pedro Yáñez Meléndez**
 
 # GCP Data and ML Platform in Colab
 
@@ -9,7 +9,7 @@ I simulate key GCP services with small classes and short code cells.
 
 ## Goals
 
-- Show understanding of modern GCP architecture.
+- Show usage of modern GCP architecture.
 - Work with streaming data, batch data, and ML in one flow.
 - Use many GCP services in one consistent design.
 - Keep the code simple and easy to read in Colab.
@@ -29,7 +29,7 @@ I simulate key GCP services with small classes and short code cells.
 
 All of these components are implemented in Python inside Colab.
 Each service has a small class in the `src` folder.
-I call them step by step so I can see each part of the pipeline.
+Services are called step by step so each part of the pipeline can be observed.
 
 ## Architecture Overview
 
@@ -47,7 +47,7 @@ I call them step by step so I can see each part of the pipeline.
 
 The whole flow stays inside Colab.
 I simulate the behavior of GCP services, but I keep the GCP names and patterns.
-This helps me practice real GCP design even without a GCP account.
+This helps in the practice of real GCP design even without a GCP account.
 
 ## Repository Structure
 
@@ -94,7 +94,7 @@ I run them from Colab cells in a natural order.
   - `batch` – Cloud Storage and Dataproc.
   - `predict` – Cloud Functions and Cloud Run.
 
-## Skills Demonstrated
+## Skills Used in this Project
 
 - Design an end-to-end GCP-style data and ML platform.
 - Combine Pub/Sub, Dataflow, BigQuery, Cloud Storage, Dataproc, Vertex AI, Cloud Run, Cloud Functions, Cloud Scheduler, and Cloud Composer.

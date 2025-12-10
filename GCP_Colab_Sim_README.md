@@ -1,5 +1,5 @@
 
-**Author: Pedro Yáñez Meléndez**
+**Author: Pedro Yanez Melendez**
 
 # GCP Data and ML Platform in Colab
 
